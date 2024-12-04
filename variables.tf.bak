@@ -1,0 +1,11 @@
+# variables.tf
+variable "subscription_id" {}
+variable "tenant_id" {}
+
+variable "admin_user" {
+  type = string
+}
+
+variable "admin_pass" {
+  type = string
+}
